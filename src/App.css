@@ -1,0 +1,123 @@
+
+.center-container {
+  text-align: center;
+  padding: 20px;
+}
+
+input[type="text"] {
+  display: block;
+  margin: 20px auto;  
+  padding: 10px;
+  width: 60%;          
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.laptop-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+}
+.laptop-item {
+  width: 220px;  
+  margin: 20px;
+  text-align: center;
+  background-color: white;  
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.laptop-item:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  cursor: pointer; 
+}
+
+.laptop-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.laptop-item h3 {
+  font-size: 0.8rem;  
+  margin: 10px 0; 
+  color: #333; 
+}
+
+.laptop-item {
+  width: 240px;  
+  margin: 20px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;  
+}
+
+button {
+  padding: 8px 12px;  
+  background: linear-gradient(to right, #6a11cb, #2575fc); 
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-size: 0.8rem;  
+  width: auto; 
+  align-self: center; 
+  margin-top: 5px; 
+}
+
+
+
+
+button:hover {
+  background: linear-gradient(to right, #4e1db1, #1e5ab1); 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(to right, #b7a0f9, #9ed2ff); 
+  font-family: Arial, sans-serif;
+}
+
+.center-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.tagline {
+  font-size: 1rem; 
+  font-weight: bold;
+  color: #333333; 
+  text-align: center;
+  padding: 8px;
+  background: linear-gradient(to right, #ffbcaf, #fff7a2); 
+  position: fixed; 
+  bottom: 30px; 
+  width: 100%; 
+  z-index: 9999; 
+  white-space: nowrap; 
+  animation: marquee 10s linear infinite; 
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%); 
+  }
+  100% {
+    transform: translateX(-100%); 
+  }
+}

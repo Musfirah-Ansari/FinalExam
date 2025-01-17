@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #b7a0f9, #9ed2ff); /* Lavender to Soft Blue */
+    height: 100vh;
+  }
+  
+  .laptop-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .laptop-details-content {
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1000px;
+  }
+  
+  .laptop-image {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  strong {
+    font-weight: bold;
+    color: #007BFF;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .laptop-details-content {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    .laptop-image {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  
